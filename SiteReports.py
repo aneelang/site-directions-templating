@@ -4,7 +4,7 @@ from datetime import date
 import calendar
 import warnings
 import base64
-import openpyxl
+from openpyxl import Workbook
 
 
 warnings.filterwarnings('ignore')
