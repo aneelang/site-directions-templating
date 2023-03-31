@@ -6,6 +6,7 @@ import warnings
 import base64
 import openpyxl
 
+
 warnings.filterwarnings('ignore')
 
 # This function removes the first three rows, and the first column.
