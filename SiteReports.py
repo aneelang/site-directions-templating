@@ -76,7 +76,6 @@ def begin_templating(initial_file):
     df = remove_the_cols(df)    # Remove the unneeded columns
     # st.write(df.to_csv(index=False).encode('utf-8'))
     st.write("Templating complete")
-    st.dataframe(df)
     st.download_button("Download CSV", df.to_csv(index=False), mime='text/csv')
 
 
