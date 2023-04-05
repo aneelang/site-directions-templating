@@ -40,7 +40,7 @@ def modify_telephone(df):
 # Returns the modified dataframe.
 
 def rename_cols(df):
-  df.rename(columns = {'Site Location Code': 'Site Code', 'Region':'Site Region', 'Site Tech Tel#' : 'Site Tech Phone', 'Site Tower Height': 'Tower Height', 'Site Structure Type': 'Tower Type', 'Site Tech Email': 'Site Tech E-mail'}, inplace=True)
+  df.rename(columns = {'Site Location Code': 'Site Code', 'Region':'Site Region', 'Site Address': 'Site Adress', 'Site Tech Tel#' : 'Site Tech Phone', 'Site Tower Height': 'Tower Height', 'Site Structure Type': 'Tower Type', 'Site Tech Email': 'Site Tech E-mail'}, inplace=True)
   return df
 
 # Removing the unncessary cells.
